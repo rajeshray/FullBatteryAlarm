@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <CheckBoxPreference
+            android:title="@string/enabled"
+            android:defaultValue="true"
+            android:key="@string/pref_enabled">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:title="@string/vibrate"
+            android:defaultValue="true"
+            android:key="@string/pref_vibrate">
+        </CheckBoxPreference>
+
+
+        <CheckBoxPreference
+            android:title="@string/sound"
+            android:defaultValue="false"
+            android:key="@string/pref_sound">
+        </CheckBoxPreference>
+
+        <Preference
+            android:title="@string/title_choose_tone"
+            android:key="@string/pref_choose_tone"
+            android:summary="None"
+            android:dependency="@string/pref_sound">
+        </Preference>
+
+        <Preference
+            android:title="@string/title_notify_me"
+            android:summary="@string/summary_charged"
+            android:key="@string/pref_notify_me">
+        </Preference>
+
+        <Preference
+            android:title="@string/title_battery_info"
+            android:key="@string/pref_battery_info">
+        </Preference>
+
+        <Preference
+            android:title="@string/title_more_apps"
+            android:key="@string/pref_more_apps">
+        </Preference>
+
+        <Preference
+            android:title="@string/title_give_feedback"
+            android:key="@string/pref_give_feedback">
+        </Preference>
+
+</PreferenceScreen>

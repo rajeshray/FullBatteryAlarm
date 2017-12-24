@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Battery Alarm</string>
+    <string name="full">Battery Charged</string>
+    <string name="enabled">Enable</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="sound">Sound</string>
+    <string name="email">iamrajesh350@gmail.com</string>
+    <string name="no_email">No e-mail client installed.</string>
+    <string name="title_battery_percentage">Battery Percentage</string>
+    <string name="pref_battery_status">battery_status</string>
+    <string name="title_battery_status">Status</string>
+    <string name="pref_battery_percentage">Battery Percentage</string>
+    <string name="pref_enabled">prefEnabled</string>
+    <string name="pref_vibrate">prefVibrate</string>
+    <string name="pref_sound">prefSound</string>
+    <string name="title_choose_tone">Select tone</string>
+    <string name="pref_shake_action">prefSelectTone</string>
+    <string name="title_notify_me">Notify me when</string>
+    <string name="summary_charged">charged 100%</string>
+    <string name="pref_choose_tone">ringtone</string>
+    <string name="title_battery_info">Show Battery Info</string>
+    <string name="pref_battery_info">prefBatteryInfo</string>
+    <string name="title_more_apps">More apps</string>
+    <string name="pref_more_apps">prefMoreApps</string>
+    <string name="title_give_feedback">Feedback</string>
+    <string name="pref_give_feedback">prefGiveFeedback</string>
+    <string name="pref_notify_me">prefNotifyMe</string>
+    <string name="set_title">Set Level</string>
+    <string name="unplug">Unplug the charger</string>
+
+</resources>
